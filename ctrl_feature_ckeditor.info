@@ -1,0 +1,9 @@
+name = ctrl_feature_ckeditor
+core = 7.x
+package = CTRL
+version = 7.x-1.0
+dependencies[] = ckeditor
+features[ckeditor_profile][] = Advanced
+features[ckeditor_profile][] = Full
+features[features_api][] = api:2
+features_exclude[dependencies][ckeditor] = ckeditor
